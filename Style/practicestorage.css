@@ -134,5 +134,8 @@ label{
     .inner{
         flex-direction: column;
     }
+    .rect{
+        width: 90%;
+    }
 }
 /* Media Query End */
