@@ -72,6 +72,11 @@ const addmore=()=>{
     DisplayCount();
 }
 
+const subtract=()=>{
+    count--;
+    localStorage.setItem('count',count);
+    DisplayCount();
+}
 
 ////Level-3
 const DeleteName=document.getElementById('dn');

@@ -114,3 +114,25 @@ label{
     background-color: lightseagreen;
   
 }
+
+
+/* Media Query Start */
+@media only screen and (max-width:576px) {
+    .Container_1{
+        width: 90%;
+    }
+    .ControlButton{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    label{
+        display: flex;
+        flex-direction: column;       
+        gap: 15px;
+    }
+    .inner{
+        flex-direction: column;
+    }
+}
+/* Media Query End */
