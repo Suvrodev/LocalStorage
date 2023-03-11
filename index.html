@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Storage</title>
+    <link rel="shortcut icon" href="MyAssets/ICO/My_Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Style/practicestorage.css">
+</head>
+<body>
+    <h1 class="Start">Practice Local Storage</h1>
+    <div class="Tag"><span>Local Storage</span></div>
+    <div class="Step1">
+        <button onclick="clear_()" class="MyButton">Clear</button>
+        <button onclick="Button1()" class="MyButton">Button-1</button>
+        <button onclick="Button2()" class="MyButton">Button-2</button>
+        <button onclick="getnameage()" class="MyButton">Get Name age</button>
+        <button onclick="removenameage()" class="MyButton">Remove Name age</button>
+        <button onclick="setobj()" class="MyButton">Set Obj</button>
+        <button onclick="getobj()" class="MyButton">Get Obj</button>
+    </div>
+
+    <div class="Tag"><span>Another Local Storage</span></div>
+    <div class="Step2">
+        <div class="rect">
+             <Button onclick="addmore()" class="MyButton">Add</Button>
+             <p class="Disc" id="round">0</p>
+        </div>
+    </div>
+
+    <div class="Tag"><span>Leve-3 & 4</span></div>
+    <div class="Container_1">
+        <div class="Input">
+            <label for="">Name <br>
+                <input type="text" name="" class="ip" id="namefield"> <button class="newbtn" id="dn">Delete Name</button> <button class="newbtn" id="sn">Send Name</button>
+            </label>
+            <label for="">Email <br>
+                <input type="email" name="" class="ip"  id="emailfield">  <button class="newbtn" id="de">Delete Email</button> <button class="newbtn" id="se">Send Email</button>
+            </label> 
+            <label for="">Message <br>
+                <div class="inner">
+                    <textarea name="" id="messagefield" cols="25" rows="2" class="ip" ></textarea>  <button class="newbtn" id="dm" >Delete Message</button> <button class="newbtn" id="sm" >Send Message</button>
+                </div>
+            </label>
+        </div>
+        <div class="ControlButton">
+            <button class=" newbtn1 newbtn2" id="sendall">Send All</button>
+            <button class="newbtn1" id="reset1">Reset</button>
+        </div>
+       
+        <!-- <div class="control">
+
+        </div> -->
+    </div>
+
+
+    <script src="JS/practicestoragedev.js"></script>
+</body>
+</html>
